@@ -55,9 +55,7 @@ table {
   max-width:100%;
   border:1px solid gray;
 }
-b {
-    font-weight:bold;
-}
+
 html {
   font-size:62.5%;
 }
@@ -74,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size:7.2rem;
+    font-size:9.6rem;
     font-weight:bolder;
     color:black;
 }
@@ -85,13 +83,13 @@ header {
 }
 
 .plan {
-    background-color:#ff835c;
+    background-color:#FF764E;
 }
 .learn {
-    background-color:#2cdbd8;
+    background-color:#5ED3EB;
 }
 .get-involved {
-    background-color:#fadd20;
+    background-color:#FFCD69;
 }
 
 footer {
@@ -114,9 +112,8 @@ nav a{
 
 /*page-top*/
 #page-top {
-    
+    display:inline-block;
 }
-
 .image-container {
     width: 20%;
     margin:0 8%;
@@ -133,12 +130,35 @@ div.image-container img {
     text-align:center;
     margin:auto;
 }
+div.title h2 {
+    font-size: 2.4rem;
+    letter-spacing:2px;
+    word-spacing: 4px;
+    font-weight:bold;
+}
 
+div.title p {
+    font-size: 2.4rem;
+    letter-spacing:2px;
+    word-spacing: 4px;
+    font-weight:bold;
+}
+
+div.title h2 {
+    width: 90%;
+    margin: 0 5%
+}
+
+div.title p {
+    width: 60%;
+    margin: 0 20%;
+}
+ 
 article#first-paragraph {
     width:90%;
     margin:2% 5%;
-    padding:5% 1%;
-    background-color: #fab7a2;
+    padding:3% 1%;
+    background-color: #DDB9A3;
 
 }
 
@@ -147,4 +167,29 @@ article#first-paragraph p {
     color:white;
     text-align:center;
     letter-spacing: 2px;
+    padding:2%;
+}
+
+/* .more info */
+.more-info {
+    width: 30%;
+    margin: auto 35%;
+}
+
+.more-info p {
+    font-size:2.0rem;
+    text-align:center;
+}
+.more-info img {
+    width: 40%;
+    margin:auto 30%;
+}
+
+span {
+    font-weight:bold;
+}
+/*img*/
+section.bgImg {
+    width: 100%;
+    margin:auto;
 }
