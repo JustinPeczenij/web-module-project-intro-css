@@ -1,3 +1,150 @@
-body{
-    background-color:hotpink;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Courier New', monospace;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*General Styles*/
+* {
+  box-sizing:border-box; 
+  max-width:100%;
+  border:1px solid gray;
+}
+b {
+    font-weight:bold;
+}
+html {
+  font-size:62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height:1.5;
+  color: #4F4F4F;
+}
+a {
+  text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing:1px;
+}
+
+h1 {
+    font-size:7.2rem;
+    font-weight:bolder;
+    color:black;
+}
+
+/*Navigation*/
+header {
+    margin:2% 18%;
+}
+
+.plan {
+    background-color:#ff835c;
+}
+.learn {
+    background-color:#2cdbd8;
+}
+.get-involved {
+    background-color:#fadd20;
+}
+
+footer {
+    margin:2% 18%;
+}
+nav {
+    margin: 0 auto;
+}
+
+nav a{
+    display:inline-block;
+    width:16%;
+    margin:auto 8%;
+    text-align:center;
+    font-size:1.6rem;
+    letter-spacing:1.5px;
+    border-radius: 18px;
+    color:white;
+}
+
+/*page-top*/
+#page-top {
+    
+}
+
+.image-container {
+    width: 20%;
+    margin:0 8%;
+    display:inline-block
+}
+
+div.image-container img {
+    border-radius: 50%;
+}
+
+.title {
+    width: 60%;
+    display:inline-block;
+    text-align:center;
+    margin:auto;
+}
+
+article#first-paragraph {
+    width:90%;
+    margin:2% 5%;
+    padding:5% 1%;
+    background-color: #fab7a2;
+
+}
+
+article#first-paragraph p {
+    font-size: 2.0rem;
+    color:white;
+    text-align:center;
+    letter-spacing: 2px;
 }
