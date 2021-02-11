@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Courier New', monospace;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*General Styles*/
+* {
+  box-sizing:border-box; 
+  max-width:100%;
+}
+
+html {
+  font-size:62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height:1.5;
+  color: #4F4F4F;
+}
+a {
+  text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing:1px;
+}
+
+h1 {
+    font-size:9.6rem;
+    font-weight:bolder;
+    color:black;
+}
+
+/*Navigation*/
+header {
+    margin:2% 18%;
+}
+
+.plan {
+    background-color:#FF764E;
+}
+.learn {
+    background-color:#5ED3EB;
+}
+.get-involved {
+    background-color:#FFCD69;
+}
+
+footer nav {
+    margin:2% 18%;
+}
+nav {
+    margin: 0 auto;
+}
+
+nav a{
+    display:inline-block;
+    width:16%;
+    margin:auto 8%;
+    text-align:center;
+    font-size:1.6rem;
+    letter-spacing:1.5px;
+    border-radius: 18px;
+    color:white;
+}
+
+/*page-top*/
+#page-top {
+    display:inline-block;
+}
+.image-container {
+    width: 20%;
+    margin:0 8%;
+    display:inline-block
+}
+
+div.image-container img {
+    border-radius: 50%;
+}
+
+.title {
+    width: 60%;
+    display:inline-block;
+    text-align:center;
+    margin:2% auto;
+}
+div.title h2 {
+    font-size: 2.4rem;
+    letter-spacing:2px;
+    word-spacing: 4px;
+    font-weight:bold;
+}
+
+div.title p {
+    font-size: 2.4rem;
+    letter-spacing:2px;
+    word-spacing: 4px;
+    font-weight:bold;
+}
+
+div.title h2 {
+    width: 90%;
+    margin: 0 5%
+}
+
+div.title p {
+    width: 60%;
+    margin: 0 20%;
+}
+ 
+article#first-paragraph {
+    width:90%;
+    margin:2% 5%;
+    padding:3% 1%;
+    background-color: #DDB9A3;
+
+}
+
+article#first-paragraph p {
+    font-size: 2.0rem;
+    color:white;
+    text-align:center;
+    letter-spacing: 2px;
+    padding:2%;
+}
+
+/* .more info */
+.more-info {
+    width: 30%;
+    margin: auto 35%;
+}
+
+.more-info p {
+    font-size:2.0rem;
+    text-align:center;
+}
+.more-info img {
+    width: 40%;
+    margin:auto 30%;
+}
+
+span {
+    font-weight:bold;
+}
+/*img*/
+section.bgImg {
+    width:100%;
+    height:25vh;
+    margin-top:5%;
+    background-image: url(assets/footer_img.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*footer*/
+footer div{
+    background-color:#F9E7DC;
+}
+ /*background-color takes the whole footer when i have my guide borders on, when I change borders to 0 the background color
+ just takes a mind of its own?*/
