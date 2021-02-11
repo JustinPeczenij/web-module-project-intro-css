@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,7 +53,6 @@ table {
 * {
   box-sizing:border-box; 
   max-width:100%;
-  border:1px solid gray;
 }
 
 html {
@@ -192,6 +191,7 @@ span {
 section.bgImg {
     width:100%;
     height:25vh;
+    margin-top:5%;
     background-image: url(assets/footer_img.jpg);
     background-size:cover;
     background-repeat:no-repeat;
@@ -201,3 +201,5 @@ section.bgImg {
 footer div{
     background-color:#F9E7DC;
 }
+ /*background-color takes the whole footer when i have my guide borders on, when I change borders to 0 the background color
+ just takes a mind of its own?*/
